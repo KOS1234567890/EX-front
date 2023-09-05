@@ -62,7 +62,7 @@ function App() {
   return (
     <article>
       <h2>한줄댓글{}</h2>
-        <Write data={data} setData={setData}/>
+        <Write setData={setData}/>
       <ul>
         <List data={data} setData={setData}/>
       </ul>
